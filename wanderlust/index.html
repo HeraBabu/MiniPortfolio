@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- global styles and settings .. required tags for bootstrap -->
+  <meta charset="utf-8">
+  <title>WanderLust</title>
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&display=swap" rel="stylesheet">
+
+
+  <!-- CSS stylesheets-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
+
+  <!-- Font Awesome-->
+  <script src="https://kit.fontawesome.com/2f1794c74f.js" crossorigin="anonymous"></script>
+  <!--<script src="https://use.fontawesome.com/cf8ccb291c.js"></script> -->
+
+  <!-- Bootstrap Scripts-->
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  <link rel="icon" href="hera_favicon.png">
+
+</head>
+
+<body>
+
+  <section id="title">
+
+    <div class="container-fluid">
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark ">
+	<img class="logo" src="hera_favicon.png" alt="Hera Babu logo">
+        <a class="navbar-brand" href=""> WanderLust </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">Download</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+      <!-- Title -->
+
+      <div class="row">
+        <div >
+          <h1 class="big-heading">Guided Hiking trips for all ages and fitness levels.</h1>
+          <button type="button" class="btn btn-dark bt-lg download-button"><i class="fab fa-apple"></i> Download</button>
+          <button type="button" class="btn btn-outline-light bt-lg download-button"><i class="fab fa-google-play"></i> Download</button>
+        </div>
+      </div>
+    </div>
+  </section>
+<!--slide show carousel-->
+<section>
+  <div id="carouseltitleimages" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/title_img.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/hike1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/hike2.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/hike3.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/hike4.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+  </div>
+</section>
+  <!-- Features -->
+
+  <section id="features">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-check-circle fa-4x"></i>
+          <h3 class="feature-heading">Easy to use.</h3>
+          <p>Round the clock customer support.</p>
+        </div>
+
+        <div class="feature-box col-lg-4 ">
+          <i class="icon fas fa-bullseye fa-4x"></i>
+          <h3 class="feature-heading">Something for Everyone.</h3>
+          <p>Solo, Family or group.</p>
+        </div>
+
+        <div class="feature-box col-lg-4 ">
+          <i class="icon fas fa-heart fa-4x"></i>
+          <h3 class="feature-heading">Well planned Itenary.</h3>
+          <p>Find the best hiking tour or your money back.</p>
+        </div>
+      </div>
+
+    </div>
+
+
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+    <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2 class="testimonial-text">Finding people who share a passion for hiking has been the best part of using this App.</h2>
+          <img class="testimonial-image" src="images/man_img.jpg" alt="man-profile">
+          <em>Logan, München</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">The highlights of each hike are the Alpine landscape, the cold Bavarian beer once you reach the peak and the lovely small group of hikers.</h2>
+          <img class="testimonial-image" src="images/lady_img.jpg" alt="lady-profile">
+          <em>Hera, München </em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </section>
+
+
+
+  <!-- Pricing -->
+
+  <section id="pricing">
+
+    <h2 class="section-heading">Hiking adventures for all ages and fitness levels.</h2>
+    <p>Simple and affordable price plans.</p>
+
+    <div class="card-deck">
+      <div class="container">
+      <div class="row">
+        <div class="pricing-column col-md-6 col-lg-4 ">
+          <div class="card">
+            <div class="card-header">
+              <h3>Easy</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="price-text">5€ / month</h2>
+              <p>1 to 3 hours + break</p>
+              <p>Suitable for children aged 5+</p>
+              <p>Two group trips every month</p>
+              <button type="button" class="btn btn-outline-dark btn-lg btn-block">Sign Up</button>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="pricing-column col-md-6 col-lg-4 ">
+          <div class="card">
+            <div class="card-header">
+              <h3>Intermediate</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="price-text">10€ / month</h2>
+              <p>4+ hours</p>
+              <p>Good fitness level and sure footedness required</p>
+              <p>Four group trips every month</p>
+              <button type="button" class="btn btn-dark btn-lg btn-block">Sign Up</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="pricing-column col-md-6 col-lg-4 ">
+          <div class="card">
+            <div class="card-header">
+              <h3>Difficult</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="price-text">20€ / month</h2>
+              <p>4+ hours</p>
+              <p>Experienced hikers</p>
+              <p>Unlimited App Usage</p>
+              <button type="button" class="btn btn-dark btn-lg btn-block">Sign Up</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      </div>
+</div>
+  </section>
+
+
+  <!-- Call to Action -->
+
+<section id="cta">
+        <h3 class= "big-heading">Adventure awaits.</h3>
+        <button type="button" class="btn btn-dark bt-lg download-button"><i class="fab fa-apple"></i> Download</button>
+        <button type="button" class="btn btn-outline-light bt-lg download-button"><i class="fab fa-google-play"></i> Download</button>
+</section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+    <i class="fooicon fab fa-twitter"></i>
+    <i class="fooicon fab fa-facebook-f"></i>
+    <i class="fooicon fab fa-instagram"></i>
+    <i class="fooicon fas fa-envelope"></i>
+    <p>© Copyright 2024 WanderLust</p>
+    <p>Made with ❤️ by Hera Babu.</p>
+
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
