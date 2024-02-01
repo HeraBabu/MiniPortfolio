@@ -104,7 +104,7 @@ function checkForMatch(){
 	const optionOneId = cardsChosenId[0]
 	const optionTwoId = cardsChosenId[1]
 	if (cardsChosen[0] === cardsChosen[1]){
-		alert('you found a match')
+		//alert('you found a match')
 		cards[optionOneId].setAttribute('src', 'images/white.jpg')
 		cards[optionTwoId].setAttribute('src', 'images/white.jpg')
 		cardsWon.push(cardsChosen)
@@ -112,7 +112,7 @@ function checkForMatch(){
 	else{
 			cards[optionOneId].setAttribute('src', 'images/blank.jpg')
 			cards[optionTwoId].setAttribute('src', 'images/blank.jpg')
-			alert('sorry, try again')
+			//alert('sorry, try again')
 	}
 	cardsChosen =[]
 	cardsChosenId=[]
