@@ -3,7 +3,6 @@
   src: url('assets/CircularStd-Black.ttf');
 }
 
-
 body {
   margin: 0;
   font-family: 'Arial';
@@ -30,7 +29,7 @@ body {
 }
 
 .logo {
-  height: 64px;
+  height: 34px;
 }
 
 .game-container {
@@ -41,8 +40,8 @@ body {
 }
 
 .player-container {
-  height: 150px;
-  width: 150px;
+  height: 200px;
+  width: 200px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -52,8 +51,20 @@ body {
   box-shadow: 4px 4px 16px rgba(0,0,0,0.2);
 }
 
+.choice-container {
+  height: 100px;
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background: #f5f7fb;
+  border-radius: 5px;
+  box-shadow: 4px 4px 16px rgba(0,0,0,0.2);
+}
+
 .name {
-  font-size: 25px;
+  font-size: 30px;
 }
 
 #result-area {
@@ -62,22 +73,19 @@ body {
   color: Black;
 }
 
-#play-btn {
-  font-size: 25px;
-  padding: 15px 50px;
-  background: #6EDCC5;
-  color: white;
+.hand-btn {
+  padding: 15px 15px;
   border-radius: 5px;
+  background: #a7e5d8;
   box-shadow: -5px 5px 10px rgba(0,0,0,0.2);
   cursor: pointer;
 }
 
-#play-btn:hover {
-  background: #93DAA5;
+.hand-btn:hover{
+  background: #217e38;
 }
-
 .footer {
-  position: absolute;
+  position: relative;
   bottom: 0;
   height: 64px;
   width: 100vw;
